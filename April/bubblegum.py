@@ -22,5 +22,9 @@ def four():
     t, taco, cat = test()
     print('hello')
 
+def five():
+    for duck in [1,2,4,67,8]:
+        print(duck)
 
-four()
+
+five()
