@@ -24,7 +24,7 @@ def four():
 
 def five():
     for duck in [1,2,4,67,8]:
-        print(duck)
+        print(f'{duck} quack')
 
 
 five()
