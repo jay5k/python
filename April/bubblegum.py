@@ -48,4 +48,9 @@ def question():
 
 question()
 
+a = "cats dog".upper()
+print(a)
+a = "cats dog".upper().lower()
+print(a)
+
 
