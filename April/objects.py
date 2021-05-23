@@ -48,5 +48,28 @@ happy_bday.sing_me_a_song()
 
 bulls_on_parade.sing_me_a_song()
 
+############################################################################################
+
+class Customer:
+    def __init__(self, name, age, zipcode):
+        self.name = name
+        self.age = age
+        self.zipcode = zipcode
+
+Jermaine = Customer("Jermaine","21","80301")
+Rocket = Customer("Rocket","2","80201")
+
+print(Jermaine.name, Jermaine.age, Jermaine.zipcode)
+print(Rocket.name, Rocket.age, Rocket.zipcode)
+
+customers = [Customer("Jermaine","21","80301"),Customer("Rocket","2","80201")]
+
+print(customers[0].name)
+print(customers[0].age)
+print(customers[1].zipcode)
+#__init__ is the constructor
+#name, age, zipcode are parameters
+#Jermaine, 21, 80301 are arguments
+#__init__ is a method
 
 
