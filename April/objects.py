@@ -71,5 +71,11 @@ print(customers[1].zipcode)
 #name, age, zipcode are parameters
 #Jermaine, 21, 80301 are arguments
 #__init__ is a method
+print(customers)
+
+#encapsulation hides data from customer kinda like a dmz and can only use setters and getters against this data
+#inheritance automatically have certain attributes for objects because they are defined in a base class
+#inheritance example is a student class and teacher class for a high school database. There could be a user class that defines the common attibutes between the two such as male/female
+#or age or birthdate
 
 
